@@ -26,6 +26,7 @@ Route::middleware(['auth','active'])->group(function () {
         Route::resource('themes',Admin\ThemeController::class)->except('show');
         Route::get('/reports', [Admin\ReportController::class,'index'])->name('reports.index');
         Route::get('/reports/export', [Admin\ReportController::class,'export'])->name('reports.export');
+        Route::get('/reports/{attempt}/export', [Admin\ReportController::class,'exportSingle'])->name('reports.exportSingle');
         Route::get('/audit', [Admin\ReportController::class,'audit'])->name('audit.index');
         Route::get('/settings', [Admin\SettingsController::class,'edit'])->name('settings.edit');
         Route::patch('/settings', [Admin\SettingsController::class,'update'])->name('settings.update');
