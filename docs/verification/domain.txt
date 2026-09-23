@@ -1,0 +1,15 @@
+PASS: Correct selections counted
+PASS: All snapshot questions counted
+PASS: Percentage rounds to two decimals
+PASS: Below-threshold attempt fails
+PASS: Unrounded fraction controls a 67 percent threshold
+PASS: Unrounded fraction passes a 66 percent threshold
+PASS: Perfect score passes a 100 percent threshold
+PASS: Unanswered attempt scores zero
+PASS: Incorrect selection earns no marks
+PASS: Exact pass boundary is inclusive
+PASS: Invalid threshold -1 is rejected
+PASS: Invalid threshold 101 is rejected
+PASS: Empty attempts are rejected
+PASS: Iterable/generator inputs are supported
+14 domain checks passed.

@@ -1,0 +1,5 @@
+@php $answered = $items->whereNotNull('selected_option')->count(); @endphp
+<div class="panel-heading"><div><span class="eyebrow">YOUR PROGRESS</span><h2>{{ $answered }} of {{ $attempt->total_questions }} answered</h2></div></div>
+<div class="progress-track" role="progressbar" aria-label="Questions answered" aria-valuemin="0" aria-valuemax="{{ $attempt->total_questions }}" aria-valuenow="{{ $answered }}"><span style="width:{{ $answered*100/$attempt->total_questions }}%"></span></div>
+<nav class="question-map" aria-label="Jump to question">@foreach($items as $q)<a data-nav href="{{ route('attempts.show',[$attempt,'question'=>$q->sequence]) }}" @class(['answered'=>$q->selected_option !== null,'current'=>isset($position) && $position===$q->sequence]) aria-label="Question {{ $q->sequence }}, {{ $q->selected_option !== null ? 'answered' : 'not answered' }}">{{ $q->sequence }}</a>@endforeach</nav>
+<div class="map-legend"><span><i></i>Answered</span><span><i class="unanswered"></i>Not answered</span></div>

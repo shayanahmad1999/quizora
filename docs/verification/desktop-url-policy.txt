@@ -1,0 +1,76 @@
+TAP version 13
+# Subtest: accepts secure remote workspaces
+ok 1 - accepts secure remote workspaces
+  ---
+  duration_ms: 0.882379
+  type: 'test'
+  ...
+# Subtest: accepts IPv4 loopback development
+ok 2 - accepts IPv4 loopback development
+  ---
+  duration_ms: 0.164528
+  type: 'test'
+  ...
+# Subtest: accepts localhost development
+ok 3 - accepts localhost development
+  ---
+  duration_ms: 0.143626
+  type: 'test'
+  ...
+# Subtest: accepts IPv6 loopback development
+ok 4 - accepts IPv6 loopback development
+  ---
+  duration_ms: 0.106981
+  type: 'test'
+  ...
+# Subtest: rejects insecure remote URLs
+ok 5 - rejects insecure remote URLs
+  ---
+  duration_ms: 0.294904
+  type: 'test'
+  ...
+# Subtest: rejects URLs with credentials
+ok 6 - rejects URLs with credentials
+  ---
+  duration_ms: 0.116586
+  type: 'test'
+  ...
+# Subtest: rejects javascript and file URLs
+ok 7 - rejects javascript and file URLs
+  ---
+  duration_ms: 0.300352
+  type: 'test'
+  ...
+# Subtest: rejects empty or invalid values
+ok 8 - rejects empty or invalid values
+  ---
+  duration_ms: 0.151157
+  type: 'test'
+  ...
+# Subtest: allows same-origin pages
+ok 9 - allows same-origin pages
+  ---
+  duration_ms: 0.316556
+  type: 'test'
+  ...
+# Subtest: blocks lookalike origins and alternate ports
+ok 10 - blocks lookalike origins and alternate ports
+  ---
+  duration_ms: 0.613283
+  type: 'test'
+  ...
+# Subtest: blocks navigation with credentials
+ok 11 - blocks navigation with credentials
+  ---
+  duration_ms: 0.148413
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 56.221617

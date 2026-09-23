@@ -1,0 +1,15 @@
+'use strict';
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const { validateServerUrl, isTrustedNavigation } = require('../url-policy.cjs');
+test('accepts secure remote workspaces', () => assert.equal(validateServerUrl('https://school.example').origin, 'https://school.example'));
+test('accepts IPv4 loopback development', () => assert.equal(validateServerUrl('http://127.0.0.1:8000').port, '8000'));
+test('accepts localhost development', () => assert.equal(validateServerUrl('http://localhost:8000').hostname, 'localhost'));
+test('accepts IPv6 loopback development', () => assert.equal(validateServerUrl('http://[::1]:8000').hostname, '[::1]'));
+test('rejects insecure remote URLs', () => assert.throws(() => validateServerUrl('http://school.example')));
+test('rejects URLs with credentials', () => assert.throws(() => validateServerUrl('https://user:password@school.example')));
+test('rejects javascript and file URLs', () => { for (const u of ['javascript:alert(1)','file:///tmp/test','data:text/html,test']) assert.throws(() => validateServerUrl(u)); });
+test('rejects empty or invalid values', () => { for (const u of ['',null,'not a url']) assert.throws(() => validateServerUrl(u)); });
+test('allows same-origin pages', () => assert.equal(isTrustedNavigation('https://school.example/quizzes/5?x=1',validateServerUrl('https://school.example')),true));
+test('blocks lookalike origins and alternate ports', () => { const s=validateServerUrl('https://school.example'); for(const u of ['https://school.example.evil.test','https://evil.test','https://school.example:444','http://school.example','javascript:alert(1)','file:///tmp/index']) assert.equal(isTrustedNavigation(u,s),false); });
+test('blocks navigation with credentials', () => assert.equal(isTrustedNavigation('https://user:pass@school.example',validateServerUrl('https://school.example')),false));

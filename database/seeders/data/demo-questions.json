@@ -1,0 +1,517 @@
+[
+  {
+    "name": "C Programming",
+    "color": "#25758A",
+    "description": "Build confidence with the fundamentals of C.",
+    "questions": [
+      {
+        "prompt": "Which header declares printf in C?",
+        "options": {
+          "a": "stdio.h",
+          "b": "stdlib.h",
+          "c": "string.h",
+          "d": "math.h"
+        },
+        "correct_option": "a",
+        "explanation": "The standard input/output header stdio.h declares printf.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "What is the index of the first element in a C array?",
+        "options": {
+          "a": "It depends on the array length",
+          "b": "0",
+          "c": "1",
+          "d": "-1"
+        },
+        "correct_option": "b",
+        "explanation": "C array indexing starts at zero.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Which operator gives the remainder of integer division?",
+        "options": {
+          "a": "*",
+          "b": "&",
+          "c": "%",
+          "d": "/"
+        },
+        "correct_option": "c",
+        "explanation": "The % operator computes the remainder for integer operands.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Which loop checks its condition after executing its body?",
+        "options": {
+          "a": "while",
+          "b": "for",
+          "c": "if",
+          "d": "do ... while"
+        },
+        "correct_option": "d",
+        "explanation": "A do-while loop executes its body before testing the condition.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Which symbol terminates a simple expression statement in C?",
+        "options": {
+          "a": ";",
+          "b": ".",
+          "c": ":",
+          "d": ","
+        },
+        "correct_option": "a",
+        "explanation": "A semicolon terminates an expression statement.",
+        "difficulty": "hard"
+      },
+      {
+        "prompt": "What does the & operator do in the expression &value?",
+        "options": {
+          "a": "Converts value to a string",
+          "b": "Obtains the address of value",
+          "c": "Multiplies value by two",
+          "d": "Dereferences value"
+        },
+        "correct_option": "b",
+        "explanation": "The unary address-of operator returns the address of its operand.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Which declaration creates an array of five integers?",
+        "options": {
+          "a": "array int values;",
+          "b": "values = int[5];",
+          "c": "int values[5];",
+          "d": "int values(5);"
+        },
+        "correct_option": "c",
+        "explanation": "An array declarator uses square brackets with its element count.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Which function compares two null-terminated strings?",
+        "options": {
+          "a": "strlen",
+          "b": "strcpy",
+          "c": "printf",
+          "d": "strcmp"
+        },
+        "correct_option": "d",
+        "explanation": "strcmp compares strings lexicographically; strlen measures length and strcpy copies.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "name": "C++",
+    "color": "#6D63AA",
+    "description": "Explore the language of objects, types, and reusable ideas.",
+    "questions": [
+      {
+        "prompt": "Which keyword is used to declare a class?",
+        "options": {
+          "a": "class",
+          "b": "object",
+          "c": "record",
+          "d": "module"
+        },
+        "correct_option": "a",
+        "explanation": "A class declaration starts with the class keyword.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "What is the default member access in a C++ class?",
+        "options": {
+          "a": "global",
+          "b": "private",
+          "c": "public",
+          "d": "protected"
+        },
+        "correct_option": "b",
+        "explanation": "Class members are private by default. Struct members are public by default.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Which operator is the scope-resolution operator?",
+        "options": {
+          "a": ".*",
+          "b": "=>",
+          "c": "::",
+          "d": "->"
+        },
+        "correct_option": "c",
+        "explanation": "The :: operator qualifies a name with its namespace or class scope.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Which prefix is used in a destructor name?",
+        "options": {
+          "a": "!",
+          "b": "@",
+          "c": "#",
+          "d": "~"
+        },
+        "correct_option": "d",
+        "explanation": "A destructor is named with a tilde followed by the class name.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Which standard library container is a dynamically sized contiguous array?",
+        "options": {
+          "a": "std::vector",
+          "b": "std::map",
+          "c": "std::set",
+          "d": "std::queue"
+        },
+        "correct_option": "a",
+        "explanation": "std::vector stores elements contiguously and can change its size.",
+        "difficulty": "hard"
+      },
+      {
+        "prompt": "Which object is commonly used for standard output?",
+        "options": {
+          "a": "std::read",
+          "b": "std::cout",
+          "c": "std::cin",
+          "d": "std::in"
+        },
+        "correct_option": "b",
+        "explanation": "std::cout is the standard output stream; std::cin is the input stream.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Which keyword enables dynamic dispatch for a member function?",
+        "options": {
+          "a": "const",
+          "b": "namespace",
+          "c": "virtual",
+          "d": "static"
+        },
+        "correct_option": "c",
+        "explanation": "A virtual member function can be dynamically dispatched through a base pointer or reference.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Which declaration creates a reference to an existing integer x?",
+        "options": {
+          "a": "int ref& = x;",
+          "b": "reference int ref(x);",
+          "c": "ref int = x;",
+          "d": "int& ref = x;"
+        },
+        "correct_option": "d",
+        "explanation": "The & in this declaration makes ref an lvalue reference to x.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "name": "Physics",
+    "color": "#4F8A73",
+    "description": "Understand motion, energy, and the world around you.",
+    "questions": [
+      {
+        "prompt": "What is the SI unit of force?",
+        "options": {
+          "a": "newton",
+          "b": "joule",
+          "c": "watt",
+          "d": "pascal"
+        },
+        "correct_option": "a",
+        "explanation": "Force is measured in newtons; one newton is one kilogram metre per second squared.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Which of these is a vector quantity?",
+        "options": {
+          "a": "Temperature",
+          "b": "Velocity",
+          "c": "Speed",
+          "d": "Mass"
+        },
+        "correct_option": "b",
+        "explanation": "Velocity has both magnitude and direction.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "A body moves 100 metres in 20 seconds. What is its average speed?",
+        "options": {
+          "a": "80 m/s",
+          "b": "2000 m/s",
+          "c": "5 m/s",
+          "d": "20 m/s"
+        },
+        "correct_option": "c",
+        "explanation": "Average speed equals total distance divided by elapsed time: 100 / 20 = 5 m/s.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "What is the SI unit of electric current?",
+        "options": {
+          "a": "volt",
+          "b": "ohm",
+          "c": "coulomb",
+          "d": "ampere"
+        },
+        "correct_option": "d",
+        "explanation": "The ampere is the SI base unit of electric current.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "What is the approximate acceleration due to gravity near Earth's surface?",
+        "options": {
+          "a": "9.8 m/s^2",
+          "b": "3.0 m/s^2",
+          "c": "98 m/s^2",
+          "d": "0.98 m/s^2"
+        },
+        "correct_option": "a",
+        "explanation": "A commonly used approximate value near Earth's surface is 9.8 m/s^2; the actual value varies with location.",
+        "difficulty": "hard"
+      },
+      {
+        "prompt": "Which expression describes acceleration?",
+        "options": {
+          "a": "Force x distance",
+          "b": "Change in velocity / elapsed time",
+          "c": "Distance / elapsed time",
+          "d": "Mass / volume"
+        },
+        "correct_option": "b",
+        "explanation": "Average acceleration is the change in velocity divided by the time interval.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Which law states that an object maintains uniform motion unless acted on by a net external force?",
+        "options": {
+          "a": "Hooke's law",
+          "b": "Boyle's law",
+          "c": "Newton's first law",
+          "d": "Ohm's law"
+        },
+        "correct_option": "c",
+        "explanation": "Newton's first law describes inertia.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "What is the SI unit of energy?",
+        "options": {
+          "a": "watt",
+          "b": "ampere",
+          "c": "metre",
+          "d": "joule"
+        },
+        "correct_option": "d",
+        "explanation": "The joule measures energy. The watt measures the rate of energy transfer.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "name": "Chemistry",
+    "color": "#B27A45",
+    "description": "Discover the building blocks of matter.",
+    "questions": [
+      {
+        "prompt": "What is the chemical formula for water?",
+        "options": {
+          "a": "H2O",
+          "b": "CO2",
+          "c": "O2",
+          "d": "NaCl"
+        },
+        "correct_option": "a",
+        "explanation": "A water molecule contains two hydrogen atoms and one oxygen atom.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "The atomic number of an element equals its number of what?",
+        "options": {
+          "a": "Isotopes",
+          "b": "Protons",
+          "c": "Neutrons",
+          "d": "Electron shells"
+        },
+        "correct_option": "b",
+        "explanation": "The atomic number is the number of protons in the nucleus.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "What is the pH of pure water at 25 degrees Celsius, approximately?",
+        "options": {
+          "a": "3",
+          "b": "14",
+          "c": "7",
+          "d": "1"
+        },
+        "correct_option": "c",
+        "explanation": "Pure water is neutral and has a pH close to 7 at 25 degrees Celsius.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Which element has the chemical symbol Na?",
+        "options": {
+          "a": "Nitrogen",
+          "b": "Neon",
+          "c": "Nickel",
+          "d": "Sodium"
+        },
+        "correct_option": "d",
+        "explanation": "Na is the chemical symbol for sodium.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "What happens in a covalent bond?",
+        "options": {
+          "a": "Atoms share electrons",
+          "b": "All protons are exchanged",
+          "c": "Nuclei merge",
+          "d": "Neutrons leave both atoms"
+        },
+        "correct_option": "a",
+        "explanation": "A covalent bond involves shared electron density between atoms.",
+        "difficulty": "hard"
+      },
+      {
+        "prompt": "How many oxygen atoms are in one molecule of carbon dioxide (CO2)?",
+        "options": {
+          "a": "4",
+          "b": "2",
+          "c": "1",
+          "d": "3"
+        },
+        "correct_option": "b",
+        "explanation": "The subscript 2 indicates two oxygen atoms.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Which of these elements is a noble gas?",
+        "options": {
+          "a": "Oxygen",
+          "b": "Chlorine",
+          "c": "Helium",
+          "d": "Hydrogen"
+        },
+        "correct_option": "c",
+        "explanation": "Helium belongs to the noble gases in group 18.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "The modern periodic table is arranged primarily by increasing what?",
+        "options": {
+          "a": "Atomic radius",
+          "b": "Melting point",
+          "c": "Density",
+          "d": "Atomic number"
+        },
+        "correct_option": "d",
+        "explanation": "Elements are ordered by atomic number.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  {
+    "name": "English",
+    "color": "#B66A80",
+    "description": "Practice the details that make communication clear.",
+    "questions": [
+      {
+        "prompt": "Choose the correct sentence.",
+        "options": {
+          "a": "She goes to school every day.",
+          "b": "She go to school every day.",
+          "c": "She going to school every day.",
+          "d": "She gone to school every day."
+        },
+        "correct_option": "a",
+        "explanation": "In the simple present, a third-person singular subject takes goes.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Which word is an antonym of ancient?",
+        "options": {
+          "a": "Early",
+          "b": "Modern",
+          "c": "Old",
+          "d": "Historic"
+        },
+        "correct_option": "b",
+        "explanation": "Modern contrasts with ancient.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Which word is closest in meaning to rapid?",
+        "options": {
+          "a": "Heavy",
+          "b": "Careful",
+          "c": "Fast",
+          "d": "Quiet"
+        },
+        "correct_option": "c",
+        "explanation": "Rapid means fast or happening at great speed.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "What is the standard plural of child?",
+        "options": {
+          "a": "Childs",
+          "b": "Childes",
+          "c": "Childrens",
+          "d": "Children"
+        },
+        "correct_option": "d",
+        "explanation": "Children is the irregular plural of child.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "What is the simple past tense of go?",
+        "options": {
+          "a": "Went",
+          "b": "Goed",
+          "c": "Gone",
+          "d": "Going"
+        },
+        "correct_option": "a",
+        "explanation": "Went is the simple past tense; gone is the past participle.",
+        "difficulty": "hard"
+      },
+      {
+        "prompt": "Which punctuation mark ends a direct question?",
+        "options": {
+          "a": ";",
+          "b": "?",
+          "c": ".",
+          "d": ","
+        },
+        "correct_option": "b",
+        "explanation": "A direct question normally ends with a question mark.",
+        "difficulty": "easy"
+      },
+      {
+        "prompt": "Choose the correct article: I ate ___ apple.",
+        "options": {
+          "a": "the a",
+          "b": "no article is possible",
+          "c": "an",
+          "d": "a"
+        },
+        "correct_option": "c",
+        "explanation": "An is used before a word beginning with a vowel sound, such as apple.",
+        "difficulty": "medium"
+      },
+      {
+        "prompt": "Which of these words is a personal pronoun?",
+        "options": {
+          "a": "Quickly",
+          "b": "Beautiful",
+          "c": "Under",
+          "d": "She"
+        },
+        "correct_option": "d",
+        "explanation": "She is a personal pronoun used as a subject.",
+        "difficulty": "medium"
+      }
+    ]
+  }
+]

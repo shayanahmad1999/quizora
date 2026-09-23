@@ -1,0 +1,752 @@
+{
+  "project": "Quizora",
+  "source_date": "2026-09-22",
+  "note": "Manifest excludes itself. Dependency lockfiles were not generated.",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 622,
+      "sha256": "6d56ef9db0f1fe46c97bfffeb7d660a2792ee2db9b80f32b2fe4a93e04d57284"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 307,
+      "sha256": "3e253491bc14f015480c04ac8c2e33a8fefd7e2894b13daa5d0bdd3544bf63b4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "11389167843637e415d2d36f7f680b6e7db696807768cb9edd6eb31874086929"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10791,
+      "sha256": "ebe985107a4a6abc1b7801de75060cedc7a752a6e9bbff71b44de34274b00076"
+    },
+    {
+      "path": "app/Console/Commands/CreateAdmin.php",
+      "bytes": 1761,
+      "sha256": "898721ca312e50860221045821b3c846e640d49c737b6b9691bbe880f1b977aa"
+    },
+    {
+      "path": "app/Console/Commands/ExpireAttempts.php",
+      "bytes": 672,
+      "sha256": "010e2d75c7b1770928c75011efb4ca8c11bdc1bdce7e7468b20daaa243d6c76a"
+    },
+    {
+      "path": "app/Console/Commands/InstallWorkspace.php",
+      "bytes": 1500,
+      "sha256": "9c9fbc930673e150d9fa4d1eadc762f2e2c16bc0f1b109028fea3c082fe1b3ba"
+    },
+    {
+      "path": "app/Domain/ScoreCalculator.php",
+      "bytes": 1008,
+      "sha256": "379933cd517381d0b553731c7962bd75907baade70e6c5a427b1d12dc57af40f"
+    },
+    {
+      "path": "app/Http/Controllers/Admin/CategoryController.php",
+      "bytes": 2586,
+      "sha256": "6cca37d6b2ce69d82630e596c8855499d2e3a8c59b8c8c5311c6e83906930ca0"
+    },
+    {
+      "path": "app/Http/Controllers/Admin/QuestionController.php",
+      "bytes": 2652,
+      "sha256": "a7e9ba824a1b6fe6d3fe1365431fe2197b6845bbe18d325450b24599cd961fe8"
+    },
+    {
+      "path": "app/Http/Controllers/Admin/QuizController.php",
+      "bytes": 2943,
+      "sha256": "ec7818f60bbe535d749714c92c1266d5a052c37b4b07fba1bd55b60034162bd2"
+    },
+    {
+      "path": "app/Http/Controllers/Admin/ReportController.php",
+      "bytes": 2950,
+      "sha256": "1a7531359254d5df62e2150a37936498bb2e0446f31c3d442bac7dff3cbedf4b"
+    },
+    {
+      "path": "app/Http/Controllers/Admin/SettingsController.php",
+      "bytes": 872,
+      "sha256": "04458c5ba75b73a4a30d894c0d139368621717a14bf42baf77c194e347c55fe3"
+    },
+    {
+      "path": "app/Http/Controllers/Admin/ThemeController.php",
+      "bytes": 2893,
+      "sha256": "e326f4edee23c687add9436bc1ae2c3a470826571b58de45dd73bc8cad8cb24e"
+    },
+    {
+      "path": "app/Http/Controllers/Admin/UserController.php",
+      "bytes": 1976,
+      "sha256": "71709d710f9e945799d512fdec7399ccd85cbd5ed5b6db9222e10b348b559372"
+    },
+    {
+      "path": "app/Http/Controllers/AttemptController.php",
+      "bytes": 2729,
+      "sha256": "15d21dc63bcc6d78cba11c50cf94198549854d8bd9b875cc436f28dc1c704b8b"
+    },
+    {
+      "path": "app/Http/Controllers/AuthController.php",
+      "bytes": 1952,
+      "sha256": "4c78f7c66d74a8cc4cffab277f8ffabfd0b96848e4d7c9896ff0e02ee2805b74"
+    },
+    {
+      "path": "app/Http/Controllers/Controller.php",
+      "bytes": 198,
+      "sha256": "ad01c2d8d85e71227069beb4802cf5cda45019f6e4011aa3ea36b0c46262e1ab"
+    },
+    {
+      "path": "app/Http/Controllers/DashboardController.php",
+      "bytes": 1657,
+      "sha256": "0d2dbed6ee1f6c6c5bc895c49682cba1d7b7feae9a675aaced0b979aef267b1f"
+    },
+    {
+      "path": "app/Http/Controllers/LearnerQuizController.php",
+      "bytes": 1530,
+      "sha256": "cc3b207ce756eb60ed19634142c7b0890c478fd110f230c0ba90e13af585e1de"
+    },
+    {
+      "path": "app/Http/Controllers/ProfileController.php",
+      "bytes": 1891,
+      "sha256": "688b8d5d4034958ed16f3ffec35f3d18974e97ecc4852db77957f4afb7336a6d"
+    },
+    {
+      "path": "app/Http/Middleware/ActiveAccount.php",
+      "bytes": 1111,
+      "sha256": "a34e11483ff38b78d9443d5b2557480099c72f340c18d68a8f4c2813939e69bd"
+    },
+    {
+      "path": "app/Http/Middleware/AdminOnly.php",
+      "bytes": 365,
+      "sha256": "12a91289d89c12f9e9fb0be6345cd3ca2c87979c84430e2a01d984a2e9c652ef"
+    },
+    {
+      "path": "app/Http/Middleware/SecurityHeaders.php",
+      "bytes": 1069,
+      "sha256": "eb8ae911d3fd50638bad114ba9573756033e80464b1b20f43af64006286528d4"
+    },
+    {
+      "path": "app/Http/Requests/AdminRequest.php",
+      "bytes": 472,
+      "sha256": "5a0ef228d2e9a9a6d1742cc00d2f99a0dfd1ec2800a899e4818f3e9a92a73077"
+    },
+    {
+      "path": "app/Http/Requests/AnswerRequest.php",
+      "bytes": 352,
+      "sha256": "5f46fa860ff20251d5269c219bde02cf1c5ab00b153981051b76aed335a9b156"
+    },
+    {
+      "path": "app/Http/Requests/CategoryRequest.php",
+      "bytes": 455,
+      "sha256": "5eeee36c3cfa1b3db593ae19363e3c50d1cf37f4574d830b73910fb80b9fc373"
+    },
+    {
+      "path": "app/Http/Requests/QuestionRequest.php",
+      "bytes": 949,
+      "sha256": "06e3bf0e682e93bc0b3a3284a6df4185c9e03808d99a9c68b853ef825bcfea1c"
+    },
+    {
+      "path": "app/Http/Requests/QuizRequest.php",
+      "bytes": 1638,
+      "sha256": "c2f7769675b8828c5a328d9345c57dc1a603b7da22fb639308e5ac82297c4ecb"
+    },
+    {
+      "path": "app/Http/Requests/SettingsRequest.php",
+      "bytes": 428,
+      "sha256": "8ac117d4b6698b8fd6e07f896eec78d5700ca154d7a8d228cf78fdaf85b45d51"
+    },
+    {
+      "path": "app/Http/Requests/ThemeRequest.php",
+      "bytes": 587,
+      "sha256": "833cadcf768c9e1ac49e6385665bc489cf74b49af14298e19a2594411dce7b62"
+    },
+    {
+      "path": "app/Http/Requests/UserRequest.php",
+      "bytes": 1063,
+      "sha256": "e6f477f857a77b74295db61e01eb39017c64cd1ff21cc3e1f5796b4405241a43"
+    },
+    {
+      "path": "app/Models/Attempt.php",
+      "bytes": 1115,
+      "sha256": "8be5a6c068aa672d90527b98fa5ef855394a30576c1d0cba093e251017429a1e"
+    },
+    {
+      "path": "app/Models/AttemptQuestion.php",
+      "bytes": 597,
+      "sha256": "21ed0d6ca35dae2b1e4db45349c466aaffd5cc8124cf4fc30bbfa40df1222d28"
+    },
+    {
+      "path": "app/Models/AuditLog.php",
+      "bytes": 483,
+      "sha256": "7968b0cdbe40597cb9f051b741930c37ec51ca5f25655111cdd9ee3d913f4c53"
+    },
+    {
+      "path": "app/Models/Category.php",
+      "bytes": 490,
+      "sha256": "d5d7824c69b5d6888dda8994ec32c03caf2ed633c2fcd572c0f210e802afa77f"
+    },
+    {
+      "path": "app/Models/Question.php",
+      "bytes": 561,
+      "sha256": "3f37bf1a0c99b9107a50114f7e74f7641f85d6c81a5925b7329608e41f802570"
+    },
+    {
+      "path": "app/Models/Quiz.php",
+      "bytes": 1072,
+      "sha256": "f35a5050dd98ac7f5d3b1ba9763432600b3a49df4f7400fb89526d00e866c770"
+    },
+    {
+      "path": "app/Models/Setting.php",
+      "bytes": 318,
+      "sha256": "7bd8871d83974b3ea04fa405b2e73012dd06d0eca5090d011d3b50412d67a985"
+    },
+    {
+      "path": "app/Models/Theme.php",
+      "bytes": 379,
+      "sha256": "db5480a1f581c94e248dfd60fa60a5384aa3d16e8a8400afc548c013b4be04ed"
+    },
+    {
+      "path": "app/Models/User.php",
+      "bytes": 1056,
+      "sha256": "6d3423c2390e1f5aabbeff412d2feca797a016b137aa367171622715fdbcfe22"
+    },
+    {
+      "path": "app/Policies/AttemptPolicy.php",
+      "bytes": 407,
+      "sha256": "850677a0b91993ec44412b7b27e03687ea43675e460795327a4974b984e109db"
+    },
+    {
+      "path": "app/Providers/AppServiceProvider.php",
+      "bytes": 481,
+      "sha256": "2c19e19dd7b2f9c2d126753a143b3cd042d505f30184c2b2d7ef94e8ade5bc67"
+    },
+    {
+      "path": "app/Services/AuditService.php",
+      "bytes": 459,
+      "sha256": "029968d950eb57c101a8397ac43787cdef8e2642f6aecea302f8206e01a37999"
+    },
+    {
+      "path": "app/Services/QuizAttemptService.php",
+      "bytes": 5837,
+      "sha256": "1bee97574c8ba59f33df08f53783b171cefde2c1caad7bbea3672ed23d9d26da"
+    },
+    {
+      "path": "app/Services/ThemeService.php",
+      "bytes": 1787,
+      "sha256": "000997ce123dce43a0f09430b4f50f457093137a265c35f5770804e47a98fb37"
+    },
+    {
+      "path": "app/Services/UserService.php",
+      "bytes": 3089,
+      "sha256": "348ab5a83baaa86d2bec8d147b900464168b6ec4c16f7a2da3b249f91fcc4abe"
+    },
+    {
+      "path": "app/Support/ListFilters.php",
+      "bytes": 1211,
+      "sha256": "02c00d93118d652a5295fc5a040a02032fb7014414d5ddde45da044865bd24cc"
+    },
+    {
+      "path": "app/Support/PageResponse.php",
+      "bytes": 1424,
+      "sha256": "5c43d533e76d4c99a3280d9ef640300a846fffc6967fc077d0c778b3bcdd3421"
+    },
+    {
+      "path": "artisan",
+      "bytes": 314,
+      "sha256": "98e3f49b73b1575b77a65e1203ebdca701a6211ce56b763701238b2495775e84"
+    },
+    {
+      "path": "bootstrap/app.php",
+      "bytes": 996,
+      "sha256": "29616e5ca062d163b4f90b0de773585c11ba13087094f35c6ddc777e3928565f"
+    },
+    {
+      "path": "bootstrap/cache/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "bootstrap/providers.php",
+      "bytes": 56,
+      "sha256": "c90862112ce4cfa0c182349cb9ae647127023504ecab453a4de63c1560d7b923"
+    },
+    {
+      "path": "composer.json",
+      "bytes": 1341,
+      "sha256": "2ba63b11b9fe2137a3220e64ceb0f4a2cc09519e0054a67ede83355433a0d4f1"
+    },
+    {
+      "path": "config/app.php",
+      "bytes": 582,
+      "sha256": "4185bd4914ae93c4fe1e650b3b7180c3c4ba965af3e2111d22f9d475be960802"
+    },
+    {
+      "path": "config/auth.php",
+      "bytes": 408,
+      "sha256": "36161d0678c2296cb6eac8510ede7c839a576a6c09a871ec6491cb107be9d3be"
+    },
+    {
+      "path": "config/cache.php",
+      "bytes": 475,
+      "sha256": "8cd1c25447e0d95eee452c271368795d6a16847acb68a32e877c72dbfae66648"
+    },
+    {
+      "path": "config/database.php",
+      "bytes": 1283,
+      "sha256": "e52eed3e93aeb4aff4bc9edae596e0c37c2e7041d34c74adb352710e14651c22"
+    },
+    {
+      "path": "config/filesystems.php",
+      "bytes": 141,
+      "sha256": "846bab8f09e8245d9bd3e438e2c04240917e102ce3c260124bfb58ed7de15aac"
+    },
+    {
+      "path": "config/hashing.php",
+      "bytes": 140,
+      "sha256": "f23c052979d2a17fb78b62155fccfe2972b2dfb04b51cd373a92d0f78e56a213"
+    },
+    {
+      "path": "config/logging.php",
+      "bytes": 540,
+      "sha256": "4089eb943fffe9b667d1ddaff375ce3f264c9088808d5404a73dbd15bf5d8396"
+    },
+    {
+      "path": "config/queue.php",
+      "bytes": 119,
+      "sha256": "4b13d10c4ec12cfddace0f521331f9d7321f012974697e4b1d05e56333afee6e"
+    },
+    {
+      "path": "config/resources.php",
+      "bytes": 1294,
+      "sha256": "42874960347f6af1ed337af35f91a0896f17a3d97cd59b80892948bb6ba982c1"
+    },
+    {
+      "path": "config/session.php",
+      "bytes": 540,
+      "sha256": "194e62d7938e8d185e51ac1e9fb128ab17adc5b5df99599bf8584e3c209bd0a5"
+    },
+    {
+      "path": "config/view.php",
+      "bytes": 126,
+      "sha256": "b66848886d6a86e1d8beab7d0d3ed96abe734677dd597f38bea61a30dfc1ef5e"
+    },
+    {
+      "path": "database/migrations/2026_09_22_000001_create_quizora_tables.php",
+      "bytes": 6749,
+      "sha256": "41d08d7326925c0a75f1d83b5a9dacec52417c98327894866985dcf2c092ea8d"
+    },
+    {
+      "path": "database/seeders/DatabaseSeeder.php",
+      "bytes": 1189,
+      "sha256": "f7f33cfdfd6a891561b0de1588a16697b3c563ef8de265040e66fad9cbecf622"
+    },
+    {
+      "path": "database/seeders/DemoContentSeeder.php",
+      "bytes": 1375,
+      "sha256": "c0dc80cb2803c0ad4557d459ab86e0d2e4bfc0f3548ebcb8b5e337e3eed2d5a9"
+    },
+    {
+      "path": "database/seeders/data/demo-questions.json",
+      "bytes": 15762,
+      "sha256": "9a6587ebd7f9ceefb68f34e60ae013d70eb1bd0c3687c31bb9a01713fcba9bc9"
+    },
+    {
+      "path": "desktop/README.md",
+      "bytes": 3765,
+      "sha256": "7d4e4a05002d9b057bc00d2966b6358020e37271bffc3b3144c0a9c12911c660"
+    },
+    {
+      "path": "desktop/assets/icon.ico",
+      "bytes": 32026,
+      "sha256": "4a8925f51c2fbdf1f7ea634c65cbcb1672f8096c40c62a222c83e930f450e069"
+    },
+    {
+      "path": "desktop/assets/icon.png",
+      "bytes": 5290,
+      "sha256": "f07e2494274c155743b80d8987f1df03a442fb86322668f4431230ddac502949"
+    },
+    {
+      "path": "desktop/config.json",
+      "bytes": 43,
+      "sha256": "5c1814ed1a97905b69f1da228d41666d23aa9a95870d1087252a417ae9637225"
+    },
+    {
+      "path": "desktop/main.cjs",
+      "bytes": 2801,
+      "sha256": "256f03a67361e27390d67e3bfe69a60c6c689895b18e19557e5dc97a6be01715"
+    },
+    {
+      "path": "desktop/offline.css",
+      "bytes": 786,
+      "sha256": "78f64f9d66b0712242a55c728989f3cf16d06875bba21b47f63d3dbc0e7d6d3d"
+    },
+    {
+      "path": "desktop/offline.html",
+      "bytes": 917,
+      "sha256": "b10a82778f709c70b5a76389908d4775ed451828dfe4af8ccb7a4f56ff2bdb27"
+    },
+    {
+      "path": "desktop/package.json",
+      "bytes": 1438,
+      "sha256": "acea92152824c94320a68a2bbfe30050c74164ef5da1d85304320b7941cbad46"
+    },
+    {
+      "path": "desktop/tests/url-policy.test.cjs",
+      "bytes": 1895,
+      "sha256": "feb1f2c56bc36358b48ae8af3c8f9d58e7013ff04a9bf66c590442d9d0cb674f"
+    },
+    {
+      "path": "desktop/url-policy.cjs",
+      "bytes": 894,
+      "sha256": "74362fb49418ca38bbde5e81fa2f18dedde1a5153ae0d968a57d10fd2e88cb2b"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 11473,
+      "sha256": "26eb7cd043d376f39e035c5fab3007cb82c9498ebf842f45edf6dcd1b24339dd"
+    },
+    {
+      "path": "docs/DEPENDENCIES.md",
+      "bytes": 2257,
+      "sha256": "dc69a0d8fb1a8c6106a2bb58ed173f778c9c0074d177514ccd006a557f4b6c83"
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "bytes": 6710,
+      "sha256": "47c6b07fbab8082fee456eec8c2d7b3f81621d4fbe55d39407251c98eeb9c47b"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "bytes": 6997,
+      "sha256": "f316f7f2a1aad51ad571dd68b1ad97ab552d717253cdcecaa16cf0e0790716b2"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "bytes": 6170,
+      "sha256": "6fc1a4bcb73a70d8583e47396dda79c4bf8074e813348ccd6682ac93cdd72c26"
+    },
+    {
+      "path": "docs/WINDOWS-QUICKSTART.md",
+      "bytes": 7365,
+      "sha256": "c62b294f03a09e02ca770005644323479f068441fa48a39e1e912b0192f05902"
+    },
+    {
+      "path": "docs/previews/README.md",
+      "bytes": 582,
+      "sha256": "ff32366dbb2222b102cef19a763b3dc1734189c43cb207aacc9dc44df9b6187c"
+    },
+    {
+      "path": "docs/previews/admin-focus.png",
+      "bytes": 269482,
+      "sha256": "cdee6682720ae9150692bc7106fe2c6439dba91c9b8a8fd4e47e37c0a47a18cd"
+    },
+    {
+      "path": "docs/previews/admin-sidebar.png",
+      "bytes": 290200,
+      "sha256": "fc093fd009afbc60bb059e881792e1748dac8c52852ea17e2172234bf14e8a5f"
+    },
+    {
+      "path": "docs/previews/admin-topbar.png",
+      "bytes": 275605,
+      "sha256": "24da9b5656dc2b3cff48d58f6e65fc1f62a6c65a4320feff1fad8d0f62b2b103"
+    },
+    {
+      "path": "docs/previews/mobile-sidebar.png",
+      "bytes": 165105,
+      "sha256": "507842ad562fb3458502779bc7d7a1f8763d9186a08319c1723be23b0d2e085f"
+    },
+    {
+      "path": "docs/previews/sign-in.png",
+      "bytes": 79418,
+      "sha256": "857741d9f1907574e55de2619346e09c0999196f983cbb23d91f446df087cfa9"
+    },
+    {
+      "path": "docs/verification/browser-contract.txt",
+      "bytes": 1189,
+      "sha256": "2a1b5a8537d21a9b31b92f20d2a3ee34f65ea1b67dc08cf80fba2adc5f985161"
+    },
+    {
+      "path": "docs/verification/desktop-url-policy.txt",
+      "bytes": 1602,
+      "sha256": "44fe18f38505494429d9518bdd0ae8741d5b1bf4e26d7de6f0322c6f6f539af3"
+    },
+    {
+      "path": "docs/verification/domain.txt",
+      "bytes": 610,
+      "sha256": "a0053e2c2c8a2d961aaef7c21d82c66eb1fbf95c19d21bad630ecf64abf74d32"
+    },
+    {
+      "path": "docs/verification/php-syntax.txt",
+      "bytes": 2603,
+      "sha256": "e49f1b90ae724983e01007802b95f88d7752bccc05bdf15598c257c55a876e9b"
+    },
+    {
+      "path": "phpunit.xml",
+      "bytes": 999,
+      "sha256": "79108a88f03e39eca564a55585ffebff13d1ef4af70ff179e6e472449bf53f64"
+    },
+    {
+      "path": "public/.htaccess",
+      "bytes": 362,
+      "sha256": "d730ea7eeed5933d1bcc74a28859d72533a17b61a274a0ea912d1a4413fa6992"
+    },
+    {
+      "path": "public/assets/css/app.css",
+      "bytes": 44021,
+      "sha256": "d301285be48b0d86fefe9dbdac5ba8342ce2f175425bec2b9ff6a91558e96b98"
+    },
+    {
+      "path": "public/assets/js/ajax.js",
+      "bytes": 20903,
+      "sha256": "8bcdda46ed772f1be91850212e67f2af37521600476cff06543c1dda5247616f"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 272,
+      "sha256": "8325a0f3abb0efffa2b5f64ae264b65cd0786c22577e07a97f21d3075c6fc969"
+    },
+    {
+      "path": "public/index.php",
+      "bytes": 310,
+      "sha256": "04ff44a0c3ec0f2a72d365215fa4976682eb331743943ef4035307d8160da561"
+    },
+    {
+      "path": "resources/views/admin/audit.blade.php",
+      "bytes": 1271,
+      "sha256": "6dcf7cad2f9bccbacdb341e4d9d7cb17732d996ec0caf4f043fa3207c08f15a1"
+    },
+    {
+      "path": "resources/views/admin/form.blade.php",
+      "bytes": 998,
+      "sha256": "b4ce8f38fc149ae842656c346fc88c947814b21d0b1aa3e5223356b44b1c7ba3"
+    },
+    {
+      "path": "resources/views/admin/forms/categories.blade.php",
+      "bytes": 593,
+      "sha256": "7e05da66b0f1ff02b6a352e2787e11e5aa8da84edb1c4a9afdd92edf21d6d3f3"
+    },
+    {
+      "path": "resources/views/admin/forms/questions.blade.php",
+      "bytes": 1445,
+      "sha256": "b3f8fa9adc913ad9c61f647dcc999db645a1206ab0f648817c994b974a311844"
+    },
+    {
+      "path": "resources/views/admin/forms/quizzes.blade.php",
+      "bytes": 2489,
+      "sha256": "e7640c05192358b69a40c9a8040ef1f4ff82611bd1246018cd6cfce45eec0944"
+    },
+    {
+      "path": "resources/views/admin/forms/themes.blade.php",
+      "bytes": 1160,
+      "sha256": "25896aa37475b7185b6d317185d780e10075de791d7ffbaa751e88c7b5792dce"
+    },
+    {
+      "path": "resources/views/admin/forms/users.blade.php",
+      "bytes": 1923,
+      "sha256": "4d09ae927631e7a86c8b1998d393c4b65682a4d1b9cbf1c3d790e3bccced6043"
+    },
+    {
+      "path": "resources/views/admin/index.blade.php",
+      "bytes": 3145,
+      "sha256": "bfb0b6dff28ce968498b2fa7819a5b8bc724a3cd135f5370e69234271d566853"
+    },
+    {
+      "path": "resources/views/admin/reports.blade.php",
+      "bytes": 1208,
+      "sha256": "f929395107d162258978ee66ee3529e56c78266f93a3be57a8c198c1a8fe396c"
+    },
+    {
+      "path": "resources/views/admin/settings.blade.php",
+      "bytes": 984,
+      "sha256": "b292de7040cd2e965220e7246ab1e779efaeb34288fc8d61786fbd60d295fd25"
+    },
+    {
+      "path": "resources/views/attempts/index.blade.php",
+      "bytes": 864,
+      "sha256": "e05d31207868ba8954835d128face5e9df755c940d7f09101f238674ab74a868"
+    },
+    {
+      "path": "resources/views/attempts/result.blade.php",
+      "bytes": 3074,
+      "sha256": "c655abc471ae31a8b2defab5c513a9c7c0cb9331139c4a4ce5169689bd1ae6da"
+    },
+    {
+      "path": "resources/views/attempts/summary.blade.php",
+      "bytes": 1014,
+      "sha256": "5673f5af603a57ae25308732182cfb9710e6c998e275ff57168f223a042c0489"
+    },
+    {
+      "path": "resources/views/attempts/table.blade.php",
+      "bytes": 1092,
+      "sha256": "33e868401dfb0c692b18a750360539c86c84a7a0aeac8ad1f0834db27d11c3f6"
+    },
+    {
+      "path": "resources/views/attempts/take.blade.php",
+      "bytes": 3208,
+      "sha256": "92d5a76228bca689ee24887f816952225fa20a405e2e3e37fb066fc5fea658b2"
+    },
+    {
+      "path": "resources/views/auth/login.blade.php",
+      "bytes": 2049,
+      "sha256": "8886abc8fe38dfc71bf204d781ff6135166ea77a24bd1c9bc2e97cac89c79189"
+    },
+    {
+      "path": "resources/views/components/empty.blade.php",
+      "bytes": 224,
+      "sha256": "3c8be8fa8f0b94f642faa86c1c34f3737561ee9cd7585dc7bec0eed6e676d6f8"
+    },
+    {
+      "path": "resources/views/components/errors.blade.php",
+      "bytes": 194,
+      "sha256": "077dffef1b5effacc63af3d5fa41fdba02937aeb84bbc11081eb48318b7289ec"
+    },
+    {
+      "path": "resources/views/components/field.blade.php",
+      "bytes": 1134,
+      "sha256": "e4c6301c2a75267422ad46c2bae33e8f6fbe6ba1a440d35fdf3fb36d7c6c6ae0"
+    },
+    {
+      "path": "resources/views/components/icon.blade.php",
+      "bytes": 1333,
+      "sha256": "315b4e8b7b311894fc5a0309d4d0307f219efebb1d43a6ee7d3cf2322d5b60bc"
+    },
+    {
+      "path": "resources/views/components/pagination.blade.php",
+      "bytes": 1379,
+      "sha256": "2bd89171bfe5fcb46b0b6f453e7bf8b6895eb1f4202b4278fabbdba41e6d2439"
+    },
+    {
+      "path": "resources/views/components/stats.blade.php",
+      "bytes": 260,
+      "sha256": "32239a56575733c811af77b8982110f023d7f5f4d774c561aa5514fb8f6f4dad"
+    },
+    {
+      "path": "resources/views/components/toggle.blade.php",
+      "bytes": 304,
+      "sha256": "4ebc986b4c62d9a1536d3f7a43653be8497f36dc4e36c69ae7e6d9700f489417"
+    },
+    {
+      "path": "resources/views/dashboard/admin.blade.php",
+      "bytes": 3022,
+      "sha256": "e470bf654b6889ab5cabf3946e7c73286f6fb6d166b2b12003ea4f3ebf58125b"
+    },
+    {
+      "path": "resources/views/dashboard/learner.blade.php",
+      "bytes": 2148,
+      "sha256": "8dbfbac93b44c97c016f0b3ff22a8d835c5e501be91f2e40aaeb2593b232cfc9"
+    },
+    {
+      "path": "resources/views/layouts/app.blade.php",
+      "bytes": 1730,
+      "sha256": "c58aeaaa7b5eeb43aa29b3d3d3558a00b26a4cbd254610ac88229eed0a9a6dd9"
+    },
+    {
+      "path": "resources/views/layouts/shell.blade.php",
+      "bytes": 3490,
+      "sha256": "121f1d8ac88f38e78b911e87fdf6b9bcfd839e49e06f8edfcc354748a4c0fccb"
+    },
+    {
+      "path": "resources/views/profile/edit.blade.php",
+      "bytes": 1335,
+      "sha256": "f0230cc0347aa1a382d2c35618de40e53a60834919dd1b2090e9821760994f6f"
+    },
+    {
+      "path": "resources/views/quizzes/card.blade.php",
+      "bytes": 1105,
+      "sha256": "f11e50912a8f85367ff4b68c8d24186a3ed1fd6b0bfcd7b65efc41e51fa7b230"
+    },
+    {
+      "path": "resources/views/quizzes/index.blade.php",
+      "bytes": 1022,
+      "sha256": "0bb17e8ed04fe26f256d8ea87a21663679d8ecba804e19e83d4583cc36e89961"
+    },
+    {
+      "path": "resources/views/shared/per-page.blade.php",
+      "bytes": 130,
+      "sha256": "f5775638e84037af4c06adbd92746f3124f43c04f60b5871d56cd2da11a041fa"
+    },
+    {
+      "path": "routes/console.php",
+      "bytes": 121,
+      "sha256": "cc005268be57402c85de5d3aecd224d89c7114c0772dd3e2a60be7a91bcc0b61"
+    },
+    {
+      "path": "routes/web.php",
+      "bytes": 2606,
+      "sha256": "40fd5132c3125756218556f76baf5d796f6685e70ceb9d7f7fa3e2cced8f0482"
+    },
+    {
+      "path": "scripts/assets.php",
+      "bytes": 813,
+      "sha256": "33644bfe68037b296892d271f4e2b913c0c1a92852cfabd32fdddeb7c0f96f28"
+    },
+    {
+      "path": "scripts/bootstrap.ps1",
+      "bytes": 947,
+      "sha256": "2207b7b9b675eb47156ac1874686fa1b7db8b535b989b0c97cf43dfe312d70a9"
+    },
+    {
+      "path": "scripts/bootstrap.sh",
+      "bytes": 346,
+      "sha256": "1678d4df7f0ac90b81121d26296b9243682a5a1fa0587ed2e61b738e9382d164"
+    },
+    {
+      "path": "scripts/prepare.php",
+      "bytes": 2007,
+      "sha256": "534b8dd22c93979e9a60999e4b094ef320767e12ffe45bb15343524f40cca328"
+    },
+    {
+      "path": "storage/app/private/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "storage/framework/cache/data/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "storage/framework/sessions/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "storage/framework/views/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "storage/logs/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "tests/Feature/WorkspaceTest.php",
+      "bytes": 13864,
+      "sha256": "2f481b57cc49c8a978a17f3c7c90f7c45396c02a8861b4fc4b4b98e21085cd5c"
+    },
+    {
+      "path": "tests/TestCase.php",
+      "bytes": 375,
+      "sha256": "ad70c1393acbb10be7526a70895fb08b4ad4cbde56042d071300bac394261f31"
+    },
+    {
+      "path": "tests/Unit/ScoreCalculatorTest.php",
+      "bytes": 1586,
+      "sha256": "8355866af046eed4659826fb893559532aaa773a2820b65091e558b8c19b37c1"
+    },
+    {
+      "path": "tests/browser/ajax_contract.py",
+      "bytes": 20804,
+      "sha256": "f1c392023d26eb704a20416e67514e1ef17eba70d008689bead0e70acdbf9793"
+    },
+    {
+      "path": "tests/browser/requirements.txt",
+      "bytes": 20,
+      "sha256": "2745adf9133752c7da71c396a64aa5f714006aad210e313347cf94ee83bd22ea"
+    },
+    {
+      "path": "tests/domain-smoke.php",
+      "bytes": 2206,
+      "sha256": "68984c8ee379ea38017712475aaddfbd7b0e81c778bd0d17b0cc157e430108e4"
+    }
+  ]
+}

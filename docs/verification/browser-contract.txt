@@ -1,0 +1,19 @@
+PASS Delegated form creation and AJAX redirect without document reload
+PASS 422 errors are deduplicated and connected to form controls
+PASS Delete confirmation cancellation and method spoofing
+PASS Debounced filtering, caret restoration, AJAX pagination and browser back
+PASS Rapid answer changes are saved FIFO; navigation waits for every save
+PASS Failed autosave blocks navigation until an explicit successful retry
+PASS Final submission cannot discard an answer whose queued save failed
+PASS Rotated CSRF token reaches both the request header and form body
+PASS Unsaved regular forms require confirmation before navigation
+PASS 401 redirects to login without replaying the failed mutation
+PASS 500 errors restore form controls and clear progress state
+PASS A stale GET response cannot overwrite newer navigation
+PASS CSV is fetched through the shared download function
+PASS Server-returned theme updates the shell without a document reload
+PASS Cross-origin AJAX requests are rejected before fetch
+PASS Countdown expiry refreshes the server result page
+PASS No uncaught JavaScript errors across the contract scenarios
+
+17 browser contract checks passed. Backend responses were mocked.
